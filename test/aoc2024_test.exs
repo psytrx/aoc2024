@@ -1,9 +1,9 @@
 defmodule Aoc2024Test do
   use ExUnit.Case
-  doctest Problem01
+  doctest Day01
 
-  test "problem_01" do
-    assert Problem01.part_1("./input/01-test.txt") == 11
-    assert Problem01.part_2("./input/01-test.txt") == 31
+  test "day_01" do
+    assert Day01.part_1("./input/01-test.txt") == 11
+    assert Day01.part_2("./input/01-test.txt") == 31
   end
 end

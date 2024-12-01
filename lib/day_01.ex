@@ -1,4 +1,4 @@
-defmodule Problem01 do
+defmodule Day01 do
   def part_1(filename) do
     {left, right} = parse(filename)
 
@@ -9,7 +9,6 @@ defmodule Problem01 do
 
   def part_2(filename) do
     {left, right} = parse(filename)
-
     right_frequencies = Enum.frequencies(right)
 
     left
