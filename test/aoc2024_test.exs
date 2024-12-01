@@ -1,8 +1,8 @@
 defmodule Aoc2024Test do
   use ExUnit.Case
-  doctest Aoc2024
+  doctest Problem01
 
-  test "greets the world" do
-    assert Aoc2024.hello() == :world
+  test "problem_01" do
+    assert Problem01.part_1("./input/01-test.txt") == 11
   end
 end
